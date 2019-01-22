@@ -36,8 +36,14 @@ public class FractionMain {
 
     private static void enterArray(Fraction[] mas) {
         for (int i = 0; i < mas.length; i++) {
-            System.out.println("Введите элементы дроби");
-            mas[i] = new Fraction(readConsole(), readConsole());
+            System.out.println("Введите числитель:");
+            int dividend = readConsole();
+            int divider = 0;
+            while (divider==0){
+                System.out.println("Введите знаменатель (не может быть равен 0)");
+                divider = readConsole();
+            }
+            mas[i] = new Fraction(dividend, divider);
         }
     }
 }

@@ -1,4 +1,4 @@
-package сom.epam.jb27.Maksim_Atbakanau.lesson4;
+package сom.epam.jb27.maksim_atbakanau.lesson4;
 
 import java.util.Random;
 import java.util.Scanner;

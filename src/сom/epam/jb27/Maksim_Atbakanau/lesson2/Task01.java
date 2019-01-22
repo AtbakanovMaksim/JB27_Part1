@@ -1,4 +1,4 @@
-package сom.epam.jb27.Maksim_Atbakanau.lesson2;
+package сom.epam.jb27.maksim_atbakanau.lesson2;
 
 import java.util.Scanner;
 
@@ -11,6 +11,7 @@ public class Task01 {
         double result;
 
         Scanner sc = new Scanner(System.in);
+
         do {
             System.out.print("Введите a!=0: ");
             while (!sc.hasNextDouble()) {
@@ -19,12 +20,14 @@ public class Task01 {
             }
             a = sc.nextDouble();
         } while (a == 0);
+
         System.out.print("Введите b: ");
         while (!sc.hasNextDouble()) {
             System.out.print("Не верный формат! Введите число b: ");
             sc.next();
         }
         b = sc.nextDouble();
+
         System.out.print("Введите c: ");
         while (!sc.hasNextDouble()) {
             System.out.print("Не верный формат! Введите число c: ");

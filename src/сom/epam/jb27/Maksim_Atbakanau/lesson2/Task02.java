@@ -1,4 +1,4 @@
-package сom.epam.jb27.Maksim_Atbakanau.lesson2;
+package сom.epam.jb27.maksim_atbakanau.lesson2;
 
 import java.util.Scanner;
 
@@ -10,6 +10,7 @@ public class Task02 {
         double lenght;
 
         Scanner sc = new Scanner(System.in);
+
         do {
             System.out.print("Введите положительный R: ");
             while (!sc.hasNextDouble()) {
@@ -18,6 +19,7 @@ public class Task02 {
             }
             R = sc.nextInt();
         } while (R <= 0);
+
         square = Math.PI * R * R;
         lenght = 2 * Math.PI * R;
         System.out.println("Длина окружности радиусом " + R + " равна:" + lenght);

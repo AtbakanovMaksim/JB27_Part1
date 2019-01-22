@@ -1,11 +1,14 @@
-package сom.epam.jb27.Maksim_Atbakanau.lesson3;
+package сom.epam.jb27.maksim_atbakanau.lesson3;
 
 import java.util.Scanner;
 
 public class Task02 {
     //    Составить программу для вычисления значений функции F(x) на отрезке [а, b] с шагом h. Результат представить в виде таблицы.
     public static void main(String[] args) {
-        double a, b, h;
+        double a;
+        double b;
+        double h;
+
         System.out.print("Введите число a: ");
         a = readConsole();
         System.out.print("Введите число b: ");

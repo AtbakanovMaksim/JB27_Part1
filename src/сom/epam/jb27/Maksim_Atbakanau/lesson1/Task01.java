@@ -1,4 +1,4 @@
-package сom.epam.jb27.Maksim_Atbakanau.lesson1;
+package сom.epam.jb27.maksim_atbakanau.lesson1;
 
 public class Task01 {
     public static void main(String[] args) {

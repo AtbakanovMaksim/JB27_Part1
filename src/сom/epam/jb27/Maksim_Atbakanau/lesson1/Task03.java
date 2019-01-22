@@ -1,4 +1,4 @@
-package сom.epam.jb27.Maksim_Atbakanau.lesson1;
+package сom.epam.jb27.maksim_atbakanau.lesson1;
 
 //Напишите программу вычисления суммы четырёх слагаемых.
 public class Task03 {

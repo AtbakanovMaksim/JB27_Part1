@@ -1,4 +1,4 @@
-package сom.epam.jb27.Maksim_Atbakanau.lesson3.Task01;
+package сom.epam.jb27.maksim_atbakanau.lesson3.Task01;
 
 import java.util.Scanner;
 

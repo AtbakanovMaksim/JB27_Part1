@@ -1,0 +1,15 @@
+Fantastic; Dune; Frank Herbert; 1965; 15; Science fiction
+Fantastic; Metro 2033; Dmitry Gluhovski; 2015; 20; Science fiction
+Fantastic; Elve's Blood; Andjey Sapkovski; 2015; 20; Fantasy
+Fantastic; Pet Sematary; Steven King; 1983; 22; Horror
+Children; Wild Animals; Natalia Kotyatova; 2010; 2; 1
+Children; Little Prince; Antuan-deSent-Exuperi; 2002; 10; 10
+Children; Bukvar; Nadezda Zhukova; 2016; 10; 5
+Learn; Geometry; Valeryi Kazakov; 2018; 4; School
+Learn; Chemistry; Aleksandr Vrublevski; 2002; 25; School
+Learn; Thinking in Java; Brus Ekkel; 2019; 80; Programming
+Student; Probability theory; Dina Zolotorevskaya; 2018; 17; 3
+Student; Mathematical analysis; B. Gorlach; 2012; 78; 2
+;1984; George Orwell; 1950; 12;
+;Unique copy; Tom Hanks; 2017; 20;
+;In the claws of a fairy tale; Daria Doncova; 2016; 18;

@@ -7,6 +7,8 @@ public class Group {
     String name;
     List<Student> studentsList = new ArrayList<Student>();
     private double groupAverageMark;
+    private final double GOOD_AVERAGE_MARK = 5.0;
+    private final int BAD_MARK = 2;
 
     public Group(String name) {
         this.name = name;
@@ -34,7 +36,7 @@ public class Group {
     public String findGood() {
         String result = "Good students:\n";
         for (int i = 0; i < studentsList.size(); i++) {
-            if (studentsList.get(i).getAverageMark() == 5.0) {
+            if (studentsList.get(i).getAverageMark() == GOOD_AVERAGE_MARK) {
                 result = result + studentsList.get(i).getName() + "\n";
             }
         }
@@ -44,8 +46,8 @@ public class Group {
     public String findBad() {
         String result = "Bad students:\n";
         for (int i = 0; i < studentsList.size(); i++) {
-            if (studentsList.get(i).getMark1() == 2 || studentsList.get(i).getMark2() == 2 ||
-                    studentsList.get(i).getMark3() == 2) {
+            if (studentsList.get(i).getMark1() == BAD_MARK || studentsList.get(i).getMark2() == BAD_MARK ||
+                    studentsList.get(i).getMark3() == BAD_MARK) {
                 result = result + studentsList.get(i).getName() + "\n";
             }
         }
